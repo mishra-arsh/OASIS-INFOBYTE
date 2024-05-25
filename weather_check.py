@@ -14,7 +14,7 @@ def get_weather(city_name):
         humidity = weather_data["main"]["humidity"]
         weather_description = weather_data["weather"][0]["description"]
 
-        print(f"Please enter the weather in {city_name}:")
+        print(f"The weather in {city_name}:")
         print(f"Temperature in {city_name} is : {temperature} K")
         print(f"Humidity in {city_name} is : {humidity}%")
         print(f"Description: {weather_description}")
